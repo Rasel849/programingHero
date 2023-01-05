@@ -228,7 +228,114 @@ body{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.summary{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.summary h2{
+    font-size: 35px;
+    margin-bottom: 90px;
+}
+.summary table{
+    width: 80%;
+}
+.summary table th{
+    text-align: start;
+    font-size: 35px;
+}
+.summary table td{
+    height: 250px; 
+    
+}
+td .edu h3{
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: #474747;
+}
+td .edu h5{
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+td .edu p{
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #757575;
 
+}
+td .edu{
+    width: 550px;
+    border-bottom: 1px solid #757575;
+}
+.bnt-down{
+    text-decoration: none;
+    background-color: #FD6E0A;
+    padding: 16px 45px;
+    font-size: 20px;
+    color: #ffff;
+    border-radius: 8px;
+    margin-bottom: 90px;
+}
+
+.con_box{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: #FFF8F3;
+    height: 700px;
+}
+.con_social,.massage{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.massage{
+    flex: 2;
+
+}
+.last{
+    width: 550px;
+}
+.last h2,.last_masa h2{
+    font-size: 35px;
+    margin-bottom: 25px;
+
+}
+.last p{
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+.media{
+    display: flex;
+    gap: 15px;
+
+}
+.last_masa{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 15px;
+}
+.last_masa input,textarea{
+    padding: 16px 20px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
+#lastsub{
+    width: 200px;
+background-color: #FD6E0A;
+color: #ffff;
+border-radius: 6px;
+
+}
 
 footer{
     height: 250px;
