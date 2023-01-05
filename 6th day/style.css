@@ -3,6 +3,9 @@
     font-family: 'Open Sans', sans-serif;
     padding: 0;
 }
+body{
+    background-color: #F3F3F3;
+}
 .home{
     background-color: #FFF8F3;  
 }
@@ -179,4 +182,55 @@
 .cont p:nth-child(1){
     font-size: 20px;
 
+}
+.what 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.what_top{
+    width: 50%;
+    text-align: center;
+    line-height: 25px;
+}
+.what_top h1{
+    margin-bottom: 20px;
+}
+.what_top p{
+    font-size: 18px;
+    color: #757575;
+
+}
+.programming{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.language{
+    height: 350px;
+    width: 250px;
+    background-color: #ffff;
+}
+.lagskill{
+    margin: 30px;
+    
+}
+.lagskill p{
+    color: #757575;
+    font-size: 18px;
+}
+.lagskill h3{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+footer{
+    height: 250px;
+    background-color: #474747;
 }
