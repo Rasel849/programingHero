@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Work Sans';
+}
+
+/* Home */
+.home{
+    height: 808px;
+    width: 100%;
+    background-repeat: no-repeat; /*image not repeat*/
+    background-size: cover;
+    background-image: url(./asset/images/banner/banner1.png); 
+    display: flex;
+    justify-content: end;  /*contain build right side*/
+    align-items: center;
+   margin-bottom: 50px;
+}
+.home_contain{
+    width: 30%;
+    margin-right: 150px;
+}
+.home_contain_main{
+    text-align: right;
+    margin-right: 10px;
+}
+.home_contain_main h1{
+    font-size: 65px;
+    margin-bottom: 15px;
+}
+.home_contain_main p{
+    font-size: 20px;
+    color: #444343;
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+.home_contain_main a{
+    text-decoration: none;
+    background-color:#F15B22 ;
+    padding: 16px 35px;
+    border-radius: 5px;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 700px;
+}
+/* end home */
+
+/* star previous */
+.previous{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image1 img{
+    width: 569px;
+height: 723.3px;
+
+}
+.image1{
+    flex: 2;
+   
+    text-align: center;
+
+}
+.pre_contain{
+    flex: 2;
+}
+
+.pre_contain_main{
+    margin-left: 20px;
+    width: 600px;
+}
+.pre_contain_main h2{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.pre_contain_main p{
+    font-size: 20px;
+    color: #444343;
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+.pre_contain_main li span{
+    color: #16D887;
+}
+.pre_contain_main li{
+    list-style: none;
+    font-size: 18px;
+    line-height: 23px;
+    color: #444343;
+
+}
+
+/* end previous */
+
+
+/* start myplan */
+
+.plan_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    
+}
+.plan_1 h2{
+    font-size: 45px;
+    margin-bottom: 70px;
+}
+.cource{
+    display: flex;
+   
+    gap: 70px;
+}
+.cou_1{
+    text-align: center;
+
+}
+.cou_1 img{
+    width: 92.96px;
+    height: 92.96px;
+    margin-bottom: 10px;
+    
+}
+.cou_1 h3{
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+
+}
+.cou_1 p{
+    font-size: 25px;
+    color: #444343;
+}
+/* end myplan */
+
+/* start call */
+.call{
+    margin-top: 90px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call_containt{
+     background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url(./asset/images/watch.png); 
+                                                    /*add linear gradient with background-image */
+    width: 1140px;
+    height: 300px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+.call_con1{
+width: 459px;
+height: 175px;
+margin-left: 50px;
+
+}
+.call_con1 h2{
+    font-size: 40px;
+    line-height: 47px;
+    color: #ffff;
+    margin-bottom: 40px;
+
+}
+.call_con1 button{
+    width: 160px;
+    height: 64px; 
+    font-size: 20px;
+    text-align: center;
+    color: #F15B22;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+}
+/* end call */
+
+/* start footer */
+
+footer{
+    background-color: #151414;
+    height: 577px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.last{
+    display: flex;
+    width: 80%;
+    height: 100%;
+}
+.future{
+    flex: 2;  
+   
+    margin-top: 100px;  
+  
+}
+.fu1{
+    width: 485px;
+    height: 317px;
+    margin-left: 10px; 
+   
+
+}
+.fu1 h1{
+    color: #F8F8F8;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.fu1 p{
+    margin-bottom: 20px;
+    line-height: 26px;
+    font-size: 20px;
+    color: #ffff;
+}
+
+
+.social{
+    display: flex;
+    gap: 30px;
+    margin-top: 25px;
+}
+.sub{
+    flex: 2;
+    margin-top: 100px;  
+}
+.sub1{
+    width: 325px;
+   height: 204px; 
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   margin-left: 30px;
+}
+.sub1 h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: #ffff;
+    margin-bottom: 20px;
+}
+.sub1 input{
+    width: 325px;
+   height: 64px;
+   padding-left:  20px;
+   border-radius: 8px;
+   border:1px solid #F15B22;
+   color: #ffff;
+   background-color: transparent;
+   outline: none;
+   font-size: 20px;
+}
+.sub1 input::placeholder {
+    color: #ffff; /* placehonder color change */
+   font-size: 20px;   
+  }
+.sub1 button{
+    width: 160px;
+    height: 64px; 
+    font-size: 20px;
+    text-align: center;
+    color: #F15B22;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+
+}
+/* end footer */
