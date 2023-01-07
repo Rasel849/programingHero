@@ -94,6 +94,22 @@ height: 723.3px;
 
 /* end previous */
 
+.previous2{
+    margin-top: 80px;
+    margin-top: 50px;
+}
+#aim{
+    width: 500px;
+    height: 500px;
+    border-radius: 8px;
+
+}
+.pre2{
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+}
+
 
 /* start myplan */
 
