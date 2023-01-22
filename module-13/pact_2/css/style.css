@@ -1,0 +1,75 @@
+@media screen and ( max-width:992px) {
+    .mycontain h1{
+        font-size: 2.5vw;
+    }
+    .mycontain p{
+        font-size: 1.5vw;
+    }
+
+    
+}
+
+@media screen and ( max-width:1206px) {
+    .memory-contain{
+
+    }
+    .memory-contain h2{
+        font-size: 2.5vw;
+    }
+    .memory-contain p{
+        font-size: 1.5vw;
+    }
+    
+}
+@media screen and ( max-width:768px) {
+    .memory-contain{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .memory-contain h2{
+        margin-top: 40px;
+        font-size: 2.6vw;
+    }
+    .memory-contain p{
+        font-size: 2vw;
+        text-align: center;
+    }
+    .exploe{
+        font-size: 2.8vw;
+        
+      
+        width: 75%;
+    }
+    
+}
+.ban{
+    
+    height: 50%;
+    width: 79%;
+  
+}
+.exploe{
+    color: white;
+    border: none;
+    
+ 
+}
+.ban a{
+    color: black;
+    text-decoration: none;
+}
+@media screen and ( min-width:769px) {
+    .memory-contain h2{
+        margin-top: 40px;
+        font-size: 2.6vw;
+    }
+  
+    .exploe{
+        font-size: 1.2vw;
+        width: 42%;
+        
+    }
+    
+}
